@@ -16,7 +16,7 @@ import os
 import json
 
 # Attempt to load chat history from a JSON file, or create an empty list if it doesn't exist
-with open("chat_history.json", 'a') as f:
+with open("./static/chat_history.json", 'a') as f:
     try:
         chat_history = json.loads(f.readlines())
     except:
