@@ -20,12 +20,12 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Asynchronous function to write JSON data to a file
 async def write_json_to_file(data: dict):
-    async with aiofiles.open("chat_history.json", mode="a") as file:
+    async with aiofiles.open("./static/chat_history.json", mode="a") as file:
         await file.write(json.dumps(data) + "\n")
 
 # Asynchronous function to clear the chat history JSON file
 async def clear_json():
-    async with aiofiles.open("chat_history.json", mode="w") as file:
+    async with aiofiles.open("./static/chat_history.json", mode="w") as file:
         await file.write("")
 
 

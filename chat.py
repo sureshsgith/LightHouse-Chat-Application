@@ -23,13 +23,14 @@ with open("chat_history.json", 'a') as f:
         chat_history = []
         
 # Set the OpenAI API key
-os.environ["OPENAI_API_KEY"]="YOUR_OPENAI_API_KEY_HERE"
+# os.environ["OPENAI_API_KEY"]="YOUR_OPENAI_API_KEY_HERE"
+os.environ["OPENAI_API_KEY"]="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"
 
 # Initialize the OpenAI language model (GPT-3)
 llm=OpenAI(model="text-davinci-003",temperature=0.7)
 
 # Load data from an Excel file into a Pandas DataFrame  
-df=pd.read_excel("lighthouse6_u.xlsx")
+df=pd.read_excel("./static/lighthouse6_u.xlsx")
 
 # Create a Pandas DataFrame agent for interacting with the DataFrame
 df_agent=create_pandas_dataframe_agent(llm,df,verbose=True)
