@@ -1,0 +1,10 @@
+langchain 
+pathlib 
+openai
+openpyxl
+fastapi
+aiofiles
+json
+asynco
+tabulate
+uvicorn
