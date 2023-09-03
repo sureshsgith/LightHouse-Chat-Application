@@ -47,15 +47,15 @@ This workflow enables users to have an enjoyable and informative experience whil
 3. Open a terminal on your computer.
 
 ```bash
-git clone https://github.com/sureshsgith/LightHouse-Chat-Application.git
-cd LightHouse-Chat-Application
+git clone https://github.com/sureshsgith/LightHouse-GenerativeAI-Application.git
+cd LightHouse-GenerativeAI-Application
 ```
 
 ### Step 2: Set up a Virtual Environment
 
 1. In the terminal, navigate to the project directory if you aren't already there.
 ```bash
-cd LightHouse-Chat-Application
+cd LightHouse-GenerativeAI-Application
 ```
 2. Create a virtual environment (if you don't have it installed, run pip install virtualenv first).
 ```bash
