@@ -29,7 +29,7 @@ os.environ["OPENAI_API_KEY"]="YOUR_OPENAI_API_KEY_HERE"
 llm=OpenAI(model="text-davinci-003",temperature=0.7)
 
 # Load data from an Excel file into a Pandas DataFrame  
-df=pd.read_excel("./static/lighthouse6_u.xlsx")
+df=pd.read_excel("./static/lighthouse_data.xlsx")
 
 # Create a Pandas DataFrame agent for interacting with the DataFrame
 df_agent=create_pandas_dataframe_agent(llm,df,verbose=True)

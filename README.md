@@ -1,15 +1,15 @@
-# LightHouse-Chat-Application
+# LightHouse-GenerativeAI-Application
 <br> 
 
-## Lighthouse Chat Application Workflow
+## Lighthouse GenerativeAI Application Workflow
 
 ### Introduction
 
-The Lighthouse Chat Application is a web-based platform designed to provide detailed information about lighthouses. This document explains the workflow of the application, from user input to the presentation of the response.
+The Lighthouse GenerativeAI Application is a web-based platform designed to provide detailed information about lighthouses. This document explains the workflow of the application, from user input to the presentation of the response.
 
 ### Workflow Overview
 
-The Lighthouse Chat Application employs several components to deliver information to users efficiently. The workflow can be divided into the following steps:
+The Lighthouse GenerativeAI Application employs several components to deliver information to users efficiently. The workflow can be divided into the following steps:
 
 ![Workflow_FlowChat](https://i.imgur.com/vR7wwyp.png)
 
@@ -32,7 +32,7 @@ The Lighthouse Chat Application employs several components to deliver informatio
 
 ## Conclusion
 
-The Lighthouse Chat Application leverages the power of AI and data retrieval to provide users with accurate and engaging information about lighthouses. It streamlines the process from user input to response, ensuring that users receive well-structured and informative answers to their questions.
+The Lighthouse GenerativeAI Application leverages the power of AI and data retrieval to provide users with accurate and engaging information about lighthouses. It streamlines the process from user input to response, ensuring that users receive well-structured and informative answers to their questions.
 
 This workflow enables users to have an enjoyable and informative experience while learning about lighthouses through a simple chat interface.
 
@@ -75,9 +75,9 @@ python -m venv venv
    ```bash
    pip install -r requirements.txt
    ```
-2. Set Your OPENAI API Key in chat.py
+2. Set Your OPENAI API Key in chat.py from [OPENAI](https://platform.openai.com/account/api-keys)
 ## Running the Web App
-Now that you've set up the environment, you can run your LightHouse Chat Application.
+Now that you've set up the environment, you can run your LightHouse GenerativeAI Application.
 
 ### Step 4: Start the App
 1. Make sure you are still in the project directory with the virtual environment activated.
@@ -88,11 +88,8 @@ sudo python3 app.py
 ## Access the Web App
 
 1. Open a web browser.
-2. In the browser's address bar, enter the [http://localhost](http://localhost) URL to access your LightHouse Chat Application.
+2. In the browser's address bar, enter the [http://localhost](http://localhost) URL to access your LightHouse GenerativeAI Application.
 
-**That's it! You've successfully installed and run your Chat app. Enjoy using it** 
+**That's it! You've successfully installed and run your GenerativeAI app. Enjoy using it** 
 
-
-
-	
 
